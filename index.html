@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Istanbulga 4 kunlik oilaviy sayohat rejasi: tarixiy joylar, xaritalar, marshrutlar va halal restoran tavsiyalari.">
+  <title>Istanbul Oilaviy Sayohat | 4 Kunlik Reja</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://upload.wikimedia.org">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Asosiy navigatsiya">
+      <a class="brand" href="#top" aria-label="Bosh sahifaga qaytish">
+        <span class="brand-mark">IST</span>
+        <span>Istanbul oilaviy sayohati</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#top">Bosh sahifa</a>
+        <a href="#day1">1-kun</a>
+        <a href="#day2">2-kun</a>
+        <a href="#day3">3-kun</a>
+        <a href="#day4">4-kun</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-3d" aria-hidden="true">
+        <span class="hero-plane plane-one"></span>
+        <span class="hero-plane plane-two"></span>
+        <span class="hero-plane plane-three"></span>
+        <span class="hero-line line-one"></span>
+        <span class="hero-line line-two"></span>
+      </div>
+      <div class="hero-content fade-in">
+        <p class="eyebrow">4 kun • oila uchun qulay • halal tavsiyalar</p>
+        <h1>Istanbuldagi unutilmas oilaviy sayohat</h1>
+        <p class="hero-text">
+          Tarixiy masjidlar, saroylar, Bosfor manzaralari va rang-barang mahallalar:
+          har bir kun uchun aniq manzil, Google Maps va marshrut tugmalari bilan.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#day1">Rejani boshlash</a>
+          <a class="button ghost" href="#overview">Kunlar bo'yicha ko'rish</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="overview section" id="overview">
+      <div class="section-heading fade-in">
+        <p class="eyebrow">Qisqa reja</p>
+        <h2>4 kunlik yo'nalish</h2>
+        <p>
+          Marshrut oilalar uchun yengilroq tempda tuzildi: har kuni 3-4 ta asosiy joy,
+          yaqin atrofdagi ovqatlanish tavsiyasi va Google Maps tugmalari bor.
+        </p>
+      </div>
+      <div class="overview-grid fade-in" id="overviewGrid"></div>
+    </section>
+
+    <div id="daysRoot"></div>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Istanbul oilaviy sayohati</strong>
+      <p>GitHub Pages uchun yengil HTML, CSS va JavaScript loyihasi.</p>
+    </div>
+    <a href="#top">Yuqoriga qaytish</a>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
